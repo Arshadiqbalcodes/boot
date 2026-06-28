@@ -18,8 +18,8 @@ st.button("Click Me!")
 # Chatbot form
 st.subheader("Chatbot Form")
 user_input = st.text_input("Enter your query:")
-user_input =  st.file_uploader("upload your cv")
-user_input = st.checkbox("please chack this box")
+# user_input =  st.file_uploader("upload your cv")
+# user_input = st.checkbox("please chack this box")
 
 if st.button("Submit"):
     response = client.models.generate_content(
